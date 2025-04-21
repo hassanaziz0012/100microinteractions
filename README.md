@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 100 Micro-Interactions
 
-## Getting Started
+A personal challenge to create 100 micro-interactions using HTML, CSS, and JavaScript.
 
-First, run the development server:
+## What's this all about?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I'm challenging myself to build 100 different micro-interactions to level up my front-end skills.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Micro-interactions are those tiny animations and responses that happen when you interact with a UI element. They're the small moments that make using apps and websites feel alive and responsive. Think of:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-   Heart button animations on social media
+-   Pull-to-refresh feedback
+-   Toggle switches with satisfying transitions
+-   Button hover/click effects
+-   Form field validation animations
+-   Loading spinners with personality
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Each one might seem minor, but they add up to create an experience that feels polished and thoughtful. In fact, these are extremely seamless animations. You usually never notice them when they happen, but you definitely feel something off when they're not there.
 
-## Learn More
+## Why am I doing this?
 
-To learn more about Next.js, take a look at the following resources:
+This is my next goal when it comes to improving my web design skills and crafting *delightful* user experiences. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Building 100 different micro-interactions will teach me to:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+-   Get creative with animation techniques
+-   Better understand timing and easing
+-   Think more deeply about user feedback
+-   Expand my CSS and JavaScript animation skills
 
-## Deploy on Vercel
+## About the Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Name:** Hassan Aziz
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Website:** https://www.hassandev.me
+
+**Twitter/X:** [@nothassanaziz](https://x.com/nothassanaziz)
+
+**YouTube:** [@itshassanaziz](https://www.youtube.com/@itshassanaziz)
