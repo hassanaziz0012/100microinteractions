@@ -14,14 +14,14 @@ export default function CharacterLimit() {
     return (
         <div className="m-20 flex justify-center">
             <div className="p-10 rounded-xl bg-slate-900 text-white flex flex-col w-lg">
-                <div className="p-5 mb-6 border border-slate-700 rounded-[calc(2.5rem-0.75rem-1.25rem)] flex flex-col">
+                <div className="p-5 mb-6 border border-slate-700 rounded-[calc(2.5rem-0.75rem-1.25rem)] flex flex-col focus-within:border-white">
                     <textarea
                         name="text"
                         id="text"
                         rows={6}
                         onChange={updateChars}
                         placeholder="Start writing..."
-                        className="placeholder:text-slate-300 text-lg resize-none"
+                        className="placeholder:text-slate-300 text-lg resize-none focus:outline-none"
                     />
                     <p
                         className={`${
@@ -33,7 +33,7 @@ export default function CharacterLimit() {
                 </div>
                 <button
                     disabled={chars >= limit}
-                    className="p-3 rounded-full bg-sky-500 text-white block self-end disabled:bg-sky-500/50 disabled:scale-75 duration-500"
+                    className="p-3 rounded-full bg-sky-500 text-white block self-end disabled:bg-sky-500/50 disabled:scale-75 duration-500 cursor-pointer"
                 >
                     <Send />
                 </button>
